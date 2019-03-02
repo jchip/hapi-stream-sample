@@ -1,0 +1,27 @@
+{
+  "name": "hapi-stream-sample",
+  "version": "1.0.0",
+  "description": "Hapi 17+ streaming sample",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib"
+  },
+  "keywords": [
+    "hapi",
+    "streaming",
+    "sample"
+  ],
+  "author": "Joel Chen",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jchip/hapi-stream-sample.git"
+  },
+  "dependencies": {
+    "electrode-server": "^2.2.2",
+    "good": "^8.1.2",
+    "good-console": "^8.0.0",
+    "munchy": "^1.0.4"
+  },
+  "private": true
+}
